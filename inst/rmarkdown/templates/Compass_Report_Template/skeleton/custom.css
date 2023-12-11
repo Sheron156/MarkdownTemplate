@@ -58,7 +58,7 @@ h1, h2, h3, h4 {
   content: "";
   display: block;
   height: 150px;
-  margin: 2em 20px 40px 20px;
+  margin: 20px 20px 40px 20px;
   background-image: url("logo.png");
   background-size: contain;
   background-position: center center;
@@ -86,9 +86,20 @@ h1, h2, h3, h4 {
 }
 
 
-#TOC {
+/*#TOC {
     max-width: fit-content;
     white-space: nowrap;
   }
   
+/* If you aren't using a TOC and want a logo at the top instead use this code:code
 
+#header.fluid-row::before {
+   content: "";
+   height: 150px;
+   width: 150px;
+   float: right;
+   background-image: url("logo-black.png");
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+ } */
