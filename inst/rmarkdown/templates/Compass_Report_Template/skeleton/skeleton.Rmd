@@ -4,23 +4,12 @@ author: "Office of System Performance"
 date: "`r Sys.Date()`"
 output:
    html_document:
-<<<<<<< HEAD
       toc: true
       toc_float: true
       toc_depth: 4
       number_sections: false
       theme: paper
       css: "custom.css"
-        
-=======
-    toc: true
-    toc_float: true
-    toc_depth: 4
-    number_sections: false
-    theme: paper
-    css: "custom.css"
-
->>>>>>> f1df6339d23c233ab536dda768b826691dcc56f8
 ---
 
 ```{r setup, include=FALSE}
@@ -47,25 +36,9 @@ CompassColours <- c('#F16823','#FDB816','#BED62F','#DEE48C','#8CD3D6','#4AB8C1',
 ## Handy Commands
 
 # This is another heading
-sd
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
+
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
 ### Stuff
 
-<!-- "C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/pandoc" +RTS -K512m -RTS skeleton.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output skeleton.html --lua-filter "C:\Users\SHeron\AppData\Local\R\win-library\4.2\rmarkdown\rmarkdown\lua\pagebreak.lua" --lua-filter "C:\Users\SHeron\AppData\Local\R\win-library\4.2\rmarkdown\rmarkdown\lua\latex-div.lua" --embed-resources --standalone --variable bs3=TRUE --section-divs --table-of-contents --toc-depth 4 --variable toc_float=1 --variable toc_selectors=h1,h2,h3,h4 --variable toc_collapsed=1 --variable toc_smooth_scroll=1 --variable toc_print=1 --template "C:\Users\SHeron\AppData\Local\R\win-library\4.2\rmarkdown\rmd\h\default.html" --no-highlight --variable highlightjs=1 --variable theme=paper --css custom.css --mathjax --variable "mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --include-in-header "C:\Users\SHeron\AppData\Local\Temp\RtmpGMrRMc\rmarkdown-str149604eed71c2.html"  -->
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
