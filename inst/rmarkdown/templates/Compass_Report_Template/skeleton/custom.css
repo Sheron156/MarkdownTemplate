@@ -62,7 +62,9 @@ h1, h2, h3, h4 {
 }
 
 .tocify ul {
+<<<<<<< HEAD
   padding-left: 2em; /* Padding to left of headers in TOC */
+  padding-left: 2em; /* Thin right border on TOC list */
 }
  
  /* Space Between TOC and 
@@ -103,6 +105,7 @@ h1, h2, h3, h4 {
     line-height: 25px !important;
 }
 
+
 /*----------------ADDING WHITE SPACE TO TOP AND HEADERS -------------*/
 
 .title {
@@ -139,9 +142,78 @@ h1, h2, h3, h4 {
   height: 100px !important; 
 }
 
+
+
+/*----------------ADDING WHITE SPACE TO TOP AND HEADERS -------------*/
+
+.title {
+  margin-top: 2.75em !important;
+  margin-bottom: 0.75em;
+}
+
+.section h1 {
+  margin-top: 2.5em !important;
+  margin-bottom: 0.75em;
+}
+
+.section h2, 
+.section h3, 
+.section h4, 
+.section h5 { 
+  padding-top: 1.5em !important;
+  margin-bottom: 0.75em;
+}
+
+/* Space Between TOC and 
+  Righthand side content on large screens */
+
+ @media (min-width: 992px) {
+    .col-md-9 {
+      width: 75%;
+      padding-left: 5em !important;
+    }
+ }
+ 
+ /* Remove excessive white space at the end of page */
+
+.tocify-extend-page {
+  height: 100px !important; 
+}
 /*#TOC {
     max-width: fit-content;
     white-space: nowrap;
   }*/
   
+
+#header.fluid-row::before {
+   content: "";
+   height: 150px;
+   width: 150px;
+   float: right;
+   background-image: url("logo-black.png");
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+ } */
+
+/* HERO IMAGE */
+
+.hero-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 390px;
+  background-color: #133454;
+}
+
+.hero-image {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+}
+
+.page-inner {
+  padding-top: 400px !important;
+}
 

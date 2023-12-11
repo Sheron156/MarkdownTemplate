@@ -4,6 +4,7 @@ author: "Office of System Performance"
 date: "`r Sys.Date()`"
 output:
    html_document:
+<<<<<<< HEAD
       toc: true
       toc_float: true
       toc_depth: 4
@@ -11,6 +12,15 @@ output:
       theme: paper
       css: "custom.css"
         
+=======
+    toc: true
+    toc_float: true
+    toc_depth: 4
+    number_sections: false
+    theme: paper
+    css: "custom.css"
+
+>>>>>>> f1df6339d23c233ab536dda768b826691dcc56f8
 ---
 
 ```{r setup, include=FALSE}
