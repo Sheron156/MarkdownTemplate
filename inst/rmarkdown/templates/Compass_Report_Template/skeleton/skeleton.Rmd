@@ -14,6 +14,11 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(tidyverse)
+library(usethis)
+
 ```
 
 # This is a heading {.tabset .tabset-fade .tabset-pills}
